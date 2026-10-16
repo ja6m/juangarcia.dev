@@ -19,7 +19,7 @@
 
 :root {
   --bg: #fafaf9;
-  --fg: #1c1917;
+  --fg: #303b40;
   --muted: #78716c;
   --rule: #e7e5e4;
   --accent: #2563eb;
@@ -28,7 +28,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0c0a09;
+    --bg: #4f5659;
     --fg: #e7e5e4;
     --muted: #a8a29e;
     --rule: #292524;
@@ -38,7 +38,7 @@
 }
 
 :root[data-theme="dark"] {
-  --bg: #0c0a09;
+  --bg: #303b40;
   --fg: #e7e5e4;
   --muted: #a8a29e;
   --rule: #292524;
